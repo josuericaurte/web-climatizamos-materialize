@@ -1,0 +1,197 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.text-lighten-blue{
+  color: #2070BB !important;
+}
+
+.text-lighten-white{
+  color: #fff !important;
+}
+
+.lighten-blue{
+  background-color:#2070BB !important;
+  color: #fff !important;
+}
+
+.dark{
+  background-color: #000 !important;
+}
+
+.servicios #servicio{ 
+  margin: 20px 0;
+ }
+
+.servicios #servicio .imagen {
+  display: flex;
+  justify-content: center;
+}
+
+.servicios #servicio .imagen img{
+  width: 100%;
+}
+
+.servicios #servicio .textp h3{
+  color: #696A6A;
+  font-size: 22px;
+  text-align: center;
+}
+
+.servicios #servicio .textp  a {
+  text-decoration: none;
+}
+
+.servicios #servicio .textp  a:hover {
+  text-decoration: none;
+}
+
+.serv1{
+
+}
+
+.serv1 h2{
+  font-size: 40px;
+  text-align: center;
+  color: #696A6A;
+}
+
+.serv1 #texto ul {
+  list-style: none;
+  background: #4892BF;
+  box-sizing: border-box;
+  padding: 15px 29px;
+}
+.serv1 #texto #nofond{background: #fff;}
+
+.serv1 #texto ul li{
+  padding: 10px 0;
+}
+
+.serv1 #texto ul li p {
+  font-size: 17.6px;
+  color: #fff;
+}
+
+.serv1 #texto h2{
+  color: #838484;
+  padding-bottom: 15px;
+  font-size: 30px;
+}
+
+.serv1 #texto #nofond li p {
+  color: #696A6A;
+}
+
+.serv1 #imagen{
+  display: flex;
+  justify-content: center;
+}
+
+.serv1 #imagen img{
+  width: 90%;
+  height: 90%;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+nav .brand-logo img{
+  width: 100%;
+  max-width: 150px;
+  margin-top: 3px;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+  #text-movil{
+    display: none;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+@media only screen and (max-width : 425px) {
+  nav .brand-logo img{
+    width: 100%;
+    max-width: 140px;
+    margin-top: 20px;
+  }
+  .sidenav-trigger i{
+    margin-top: 15px;
+  }
+  #text-web{
+    display: none;
+  }
+
+  #text-movil{
+    display: block;
+  }
+
+  .no-pad-bot .container h1{
+    font-size: 45px;
+  }
+
+  .servicios #servicio .textp h3{
+    font-size: 15px;
+  }
+
+  #nosotros-movil{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #nosotros-movil .col{
+    width: 100% !important;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer{
+ 
+}
+
+footer.page-footer {
+  margin: 0;
+}
